@@ -12,6 +12,14 @@
 | v1.0.1 | 2026-10-18 | 收紧写实基底与负面池首排，修正 §0 模式启停描述。 |
 | v1.0.0 | 2026-10-18 | 首次开源，单文件 Skill 格式。 |
 
+## 🎬 影视剧照复刻
+
+<a href="examples/replica-grid-12-films.jpg"><img src="examples/replica-grid-12-films.jpg" alt="12 组电影截图与 MOSS-Image 复刻对照"></a>
+
+**上行 `REAL` 是原作截图，下行 `MOSS` 是按本 `SKILL.md` 复刻出来的结果。** 12 组对照覆盖 90 年代港片、Dune、Joker、Inception、Titanic 等不同年代与调色风格。
+
+复刻时**不写片名、不写演员名**，只按 §3.2 的写法组织描述：开头放光学与显影参数（胶片型号、镜头、色片），正文写机位与遮挡、灯具形态与面部受光位置、年代色调与颗粒，再加入打破精致感的日常小道具。同一套规则换掉开头的风格词组，就能在硬直闪、伦勃朗切割、霓虹抽帧、青橙宽银幕之间切换。
+
 ## 🎨 示例
 
 以下全部由 `MOSS-Image-SFT` + [`FKEY Style` LoRA](https://civitai.com/models/3013321/fkey-style-or-painterly-anime-lora-for-moss-image) 生成，提示词按本仓库 `SKILL.md` 编写（采样：`euler` + `sgm_uniform`，Steps `50`，CFG `3.0`，Shift `5.0`，LoRA `0.6`）。
